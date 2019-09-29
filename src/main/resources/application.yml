@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: day2_demo1
+  banner:
+    location: banner.txt
+  profiles:
+    active: dev
+
+
+#更改端口号 并且  给URL路径添加了/demo/  http://localhost:8088/demo/hi
+server:
+  port: 8088
+  servlet:
+    context-path: /demo/
+
+
+#自定义属性
+heihei:
+   name: 秦苒
+
+#将产生的日志存放到d:/logs/day2_demo1.log中
+logging:
+  file: d:/logs/day2_demo1.log
+  level:
+    com:
+      bw: debug
+

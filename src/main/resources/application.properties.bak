@@ -1,0 +1,8 @@
+!更改标识
+spring.banner.location=banner.txt
+
+!类似于索引
+spring.application.name=day2_demo1
+
+!端口号
+server.port=8088
